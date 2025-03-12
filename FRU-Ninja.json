@@ -8866,7 +8866,7 @@
   ],
   "ExposedVarDesc": "记得选职能，不选默认D2\n打法偏保守，P4二运开防击退处理\n是否放LB请填变量！",
   "OpenerScript": "",
-  "Note": "默认D2、放LB，详见补充说明",
+  "Note": "默认D2减伤，LB等详见补充说明",
   "TerritoryTypeId": 1238,
   "TerritoryWeatherId": 1,
   "TargetAcrAuthor": "UMP",
