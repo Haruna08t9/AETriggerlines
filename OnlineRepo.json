@@ -3,6 +3,6 @@
     "Name": "FRU-UMP忍者 ",
     "Version": "1.9",
     "DownloadUrl": "https://raw.githubusercontent.com/Haruna08t9/AETriggerlines/master/FRU-Ninja.json",
-    "UpdateInfo": ""
+    "UpdateInfo": "是否放LB现在由变量控制，记得填！另外修复了D1减伤"
   }
 ]
