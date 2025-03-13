@@ -1868,6 +1868,30 @@
                         "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
                         "TriggerActions": [
                           {
+                            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+                            "Key": "雷遁",
+                            "Value": false,
+                            "DisplayName": "Ninja/QT",
+                            "Remark": null
+                          }
+                        ],
+                        "DisplayName": "行为",
+                        "GUID": "66863d29-1d40-4c63-ac2b-7324e53d45fd",
+                        "Important": false,
+                        "Color": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 0.4,
+                          "W": 1.0
+                        },
+                        "Id": 61,
+                        "Enable": true,
+                        "Remark": "锁雷遁"
+                      },
+                      {
+                        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
+                        "TriggerActions": [
+                          {
                             "$type": "AEAssist.CombatRoutine.Trigger.TriggerAction.TriggerActionSpellQueue, AEAssist",
                             "Data": [
                               {
@@ -1938,7 +1962,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 61,
+                        "Id": 62,
                         "Enable": true,
                         "Remark": "结天\\地"
                       }
@@ -1984,33 +2008,9 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 63,
-                        "Enable": true,
-                        "Remark": "Absolute Zero 读条时间:9.7"
-                      },
-                      {
-                        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
-                        "TriggerActions": [
-                          {
-                            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-                            "Key": "雷遁",
-                            "Value": false,
-                            "DisplayName": "Ninja/QT",
-                            "Remark": null
-                          }
-                        ],
-                        "DisplayName": "行为",
-                        "GUID": "66863d29-1d40-4c63-ac2b-7324e53d45fd",
-                        "Important": false,
-                        "Color": {
-                          "X": 1.0,
-                          "Y": 1.0,
-                          "Z": 0.4,
-                          "W": 1.0
-                        },
                         "Id": 64,
                         "Enable": true,
-                        "Remark": "锁雷遁"
+                        "Remark": "Absolute Zero 读条时间:9.7"
                       },
                       {
                         "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeDelayNode, AEAssist",
@@ -2387,7 +2387,7 @@
                       "Z": 0.4,
                       "W": 1.0
                     },
-                    "Id": 62,
+                    "Id": 63,
                     "Enable": true,
                     "Remark": "P2.5爆发处理其二"
                   },

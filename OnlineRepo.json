@@ -1,8 +1,8 @@
 [
   {
     "Name": "FRU-UMP忍者 ",
-    "Version": "1.12",
+    "Version": "1.13",
     "DownloadUrl": "https://raw.githubusercontent.com/Haruna08t9/AETriggerlines/master/FRU-Ninja.json",
-    "UpdateInfo": "是否放LB现在由变量控制，记得填！另外修复了D1减伤"
+    "UpdateInfo": "调整P2收尾技能顺序"
   }
 ]
