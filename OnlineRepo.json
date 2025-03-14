@@ -1,8 +1,8 @@
 [
   {
     "Name": "FRU-UMP忍者 ",
-    "Version": "1.14",
+    "Version": "1.15",
     "DownloadUrl": "https://raw.githubusercontent.com/Haruna08t9/AETriggerlines/master/FRU-Ninja.json",
-    "UpdateInfo": "加入少许自动减伤"
+    "UpdateInfo": "微调自动减伤位置"
   }
 ]
