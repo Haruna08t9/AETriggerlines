@@ -1,8 +1,8 @@
 [
   {
     "Name": "FRU-UMP忍者 ",
-    "Version": "1.13",
+    "Version": "1.14",
     "DownloadUrl": "https://raw.githubusercontent.com/Haruna08t9/AETriggerlines/master/FRU-Ninja.json",
-    "UpdateInfo": "调整P2收尾技能顺序"
+    "UpdateInfo": "加入少许自动减伤"
   }
 ]
