@@ -8640,23 +8640,6 @@
                         "Id": 285,
                         "Enable": true,
                         "Remark": "目标选择器on"
-                      },
-                      {
-                        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeScriptNode, AEAssist",
-                        "OnlyCheck": false,
-                        "Script": "using AEAssist;\nusing AEAssist.CombatRoutine.Module.Target;\nusing AEAssist.CombatRoutine.Trigger;\nusing AEAssist.CombatRoutine.Trigger.Node;\nusing AEAssist.Extension;\n\nnamespace ScriptTest;\n\npublic class FruP4TargetSelection: ITriggerScript\n{\n       \n    public bool Check(ScriptEnv scriptEnv, ITriggerCondParams condParams)\n    {\n        var oracleOfDarknessList = TargetMgr.Instance.Enemys.Values\n            .Where(e => e.DataId is 17835).ToList();\n        var usurperOfFrostList = TargetMgr.Instance.Enemys.Values\n            .Where(e => e.DataId is 17833).ToList();\n        \n        // 返回 true，脚本停止运行\n        // 返回 false，脚本每帧运行\n        \n        if (oracleOfDarknessList.Count != 1 || usurperOfFrostList.Count != 1)\n        {\n            return false;\n        }\n        \n        var oracleOfDarkness = oracleOfDarknessList[0];\n        var usurperOfFrost = usurperOfFrostList[0];     \n         \n        //检测血量百分比的差值\n        var hpDiff  = (oracleOfDarkness.CurrentHpPercent() - usurperOfFrost.CurrentHpPercent()) * 100;\n\n        // 当 oracleOfDarkness 血量比 usurperOfFrost 高 2%，切目标\n        if (hpDiff >= 2)\n        {\n            Core.Me.SetTarget(oracleOfDarkness);\n            return false;\n        }\n        \n        // 当 usurperOfFrost 血量比 oracleOfDarkness 高 2%，切目标\n        if (hpDiff <= -2)\n        {\n            Core.Me.SetTarget(usurperOfFrost);\n            return false;\n        }\n        return false;\n    }\n}",
-                        "DisplayName": "脚本节点",
-                        "GUID": "9dae6d3b-53ea-4f10-912c-091c90dd23ac",
-                        "Important": false,
-                        "Color": {
-                          "X": 1.0,
-                          "Y": 1.0,
-                          "Z": 0.4,
-                          "W": 1.0
-                        },
-                        "Id": 286,
-                        "Enable": true,
-                        "Remark": ""
                       }
                     ],
                     "GUID": "c4079e9d-46fd-4d5f-9526-65f4c501936d",
@@ -8669,7 +8652,7 @@
                     },
                     "Id": 281,
                     "Enable": true,
-                    "Remark": "p4"
+                    "Remark": "p4前半"
                   },
                   {
                     "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeSequence, AEAssist",
@@ -8699,7 +8682,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 288,
+                        "Id": 287,
                         "Enable": true,
                         "Remark": "p3天气"
                       },
@@ -8715,7 +8698,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 289,
+                        "Id": 288,
                         "Enable": true,
                         "Remark": ""
                       },
@@ -8738,7 +8721,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 290,
+                        "Id": 289,
                         "Enable": true,
                         "Remark": "目标选择器off"
                       },
@@ -8754,7 +8737,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 291,
+                        "Id": 290,
                         "Enable": true,
                         "Remark": ""
                       },
@@ -8777,7 +8760,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 292,
+                        "Id": 291,
                         "Enable": true,
                         "Remark": "目标选择器on"
                       },
@@ -8793,7 +8776,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 293,
+                        "Id": 292,
                         "Enable": true,
                         "Remark": ""
                       },
@@ -8816,7 +8799,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 294,
+                        "Id": 293,
                         "Enable": true,
                         "Remark": "目标选择器off"
                       }
@@ -8829,9 +8812,87 @@
                       "Z": 0.4,
                       "W": 1.0
                     },
-                    "Id": 287,
+                    "Id": 286,
                     "Enable": true,
                     "Remark": "p4后半"
+                  },
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeSequence, AEAssist",
+                    "DisplayName": "序列",
+                    "IgnoreNodeResult": false,
+                    "StopWhenDead": false,
+                    "Childs": [
+                      {
+                        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                        "CondLogicType": 1,
+                        "CheckOnce": false,
+                        "ReverseResult": false,
+                        "TriggerConds": [
+                          {
+                            "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondOnWeatherIdChanged, AEAssist",
+                            "Remark": "",
+                            "DisplayName": "General/天气变化",
+                            "WeatherId": 6
+                          }
+                        ],
+                        "DisplayName": "等待条件",
+                        "GUID": "a43921a2-884a-462e-a12e-3084b3d1c671",
+                        "Important": false,
+                        "Color": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 0.4,
+                          "W": 1.0
+                        },
+                        "Id": 295,
+                        "Enable": true,
+                        "Remark": "p3天气"
+                      },
+                      {
+                        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeDelayNode, AEAssist",
+                        "DisplayName": "延迟[164.00]秒",
+                        "Delay": 164.0,
+                        "GUID": "58b2666d-a0a4-41f9-afc7-807e248cbcc3",
+                        "Important": false,
+                        "Color": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 0.4,
+                          "W": 1.0
+                        },
+                        "Id": 296,
+                        "Enable": true,
+                        "Remark": ""
+                      },
+                      {
+                        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeScriptNode, AEAssist",
+                        "OnlyCheck": false,
+                        "Script": "using AEAssist;\nusing AEAssist.CombatRoutine.Module.Target;\nusing AEAssist.CombatRoutine.Trigger;\nusing AEAssist.CombatRoutine.Trigger.Node;\nusing AEAssist.Extension;\n\nnamespace ScriptTest;\n\npublic class FruP4TargetSelection: ITriggerScript\n{\n       \n    public bool Check(ScriptEnv scriptEnv, ITriggerCondParams condParams)\n    {\n        var oracleOfDarknessList = TargetMgr.Instance.Enemys.Values\n            .Where(e => e.DataId is 17835).ToList();\n        var usurperOfFrostList = TargetMgr.Instance.Enemys.Values\n            .Where(e => e.DataId is 17833).ToList();\n        \n        // 返回 true，脚本停止运行\n        // 返回 false，脚本每帧运行\n        \n        if (oracleOfDarknessList.Count != 1 || usurperOfFrostList.Count != 1)\n        {\n            return false;\n        }\n        \n        var oracleOfDarkness = oracleOfDarknessList[0];\n        var usurperOfFrost = usurperOfFrostList[0];     \n         \n        //检测血量百分比的差值\n        var hpDiff  = (oracleOfDarkness.CurrentHpPercent() - usurperOfFrost.CurrentHpPercent()) * 100;\n\n        // 当 oracleOfDarkness 血量比 usurperOfFrost 高 2%，切目标\n        if (hpDiff >= 2)\n        {\n            Core.Me.SetTarget(oracleOfDarkness);\n            return false;\n        }\n        \n        // 当 usurperOfFrost 血量比 oracleOfDarkness 高 2%，切目标\n        if (hpDiff <= -2)\n        {\n            Core.Me.SetTarget(usurperOfFrost);\n            return false;\n        }\n        return false;\n    }\n}",
+                        "DisplayName": "脚本节点",
+                        "GUID": "9dae6d3b-53ea-4f10-912c-091c90dd23ac",
+                        "Important": false,
+                        "Color": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 0.4,
+                          "W": 1.0
+                        },
+                        "Id": 297,
+                        "Enable": true,
+                        "Remark": ""
+                      }
+                    ],
+                    "GUID": "c363c492-1d29-41ba-b082-747dc35d9b0b",
+                    "Important": false,
+                    "Color": {
+                      "X": 1.0,
+                      "Y": 1.0,
+                      "Z": 0.4,
+                      "W": 1.0
+                    },
+                    "Id": 294,
+                    "Enable": true,
+                    "Remark": "p4修血"
                   },
                   {
                     "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeSequence, AEAssist",
@@ -8861,7 +8922,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 296,
+                        "Id": 299,
                         "Enable": true,
                         "Remark": "p5天气"
                       },
@@ -8884,7 +8945,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 297,
+                        "Id": 300,
                         "Enable": true,
                         "Remark": "目标选择器on"
                       }
@@ -8897,7 +8958,7 @@
                       "Z": 0.4,
                       "W": 1.0
                     },
-                    "Id": 295,
+                    "Id": 298,
                     "Enable": true,
                     "Remark": "p5"
                   }
