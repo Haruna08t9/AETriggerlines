@@ -1,8 +1,8 @@
 [
   {
     "Name": "FRU-UMP忍者 ",
-    "Version": "1.16",
+    "Version": "1.17",
     "DownloadUrl": "https://raw.githubusercontent.com/Haruna08t9/AETriggerlines/master/FRU-Ninja.json",
-    "UpdateInfo": "更换了新的目标自动选择模式"
+    "UpdateInfo": "微调D2减伤"
   }
 ]
