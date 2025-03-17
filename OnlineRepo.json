@@ -1,8 +1,8 @@
 [
   {
     "Name": "FRU-UMP忍者 ",
-    "Version": "1.17",
+    "Version": "1.18",
     "DownloadUrl": "https://raw.githubusercontent.com/Haruna08t9/AETriggerlines/master/FRU-Ninja.json",
-    "UpdateInfo": "微调D2减伤"
+    "UpdateInfo": "P3一运镰鼬现在固定用于止损，P2P3末尾会视Boss血量开始攒资源，修复若干BUG"
   }
 ]
