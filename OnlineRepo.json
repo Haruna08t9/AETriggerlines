@@ -1,8 +1,8 @@
 [
   {
     "Name": "FRU-UMP忍者 ",
-    "Version": "1.18",
+    "Version": "1.19",
     "DownloadUrl": "https://raw.githubusercontent.com/Haruna08t9/AETriggerlines/master/FRU-Ninja.json",
-    "UpdateInfo": "P3一运镰鼬现在固定用于止损，P2P3末尾会视Boss血量开始攒资源，修复若干BUG"
+    "UpdateInfo": "P3开场时若LB不满，则跳过本轮LB，防止在奇怪的地方使用LB"
   }
 ]
