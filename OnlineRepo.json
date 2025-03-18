@@ -1,8 +1,8 @@
 [
   {
     "Name": "FRU-UMP忍者 ",
-    "Version": "1.19",
+    "Version": "1.20",
     "DownloadUrl": "https://raw.githubusercontent.com/Haruna08t9/AETriggerlines/master/FRU-Ninja.json",
-    "UpdateInfo": "P3开场时若LB不满，则跳过本轮LB，防止在奇怪的地方使用LB"
+    "UpdateInfo": "微调减伤窗口"
   }
 ]
