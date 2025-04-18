@@ -337,6 +337,22 @@
                         "Remark": "牵制"
                       },
                       {
+                        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeDelayNode, AEAssist",
+                        "DisplayName": "延迟[1.00]秒",
+                        "Delay": 1.0,
+                        "GUID": "127ac0c8-884b-42cc-97e4-b0c116a09e1b",
+                        "Important": false,
+                        "Color": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 0.4,
+                          "W": 1.0
+                        },
+                        "Id": 11,
+                        "Enable": true,
+                        "Remark": ""
+                      },
+                      {
                         "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
                         "CondLogicType": 0,
                         "CheckOnce": false,
@@ -360,7 +376,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 11,
+                        "Id": 12,
                         "Enable": true,
                         "Remark": "牵制转好了"
                       },
@@ -387,7 +403,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 12,
+                        "Id": 13,
                         "Enable": true,
                         "Remark": "AOE"
                       },
@@ -438,7 +454,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 13,
+                        "Id": 14,
                         "Enable": true,
                         "Remark": "牵制"
                       }
@@ -503,7 +519,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 16,
+                        "Id": 17,
                         "Enable": true,
                         "Remark": "AOE"
                       },
@@ -519,7 +535,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 17,
+                        "Id": 18,
                         "Enable": true,
                         "Remark": ""
                       },
@@ -546,7 +562,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 18,
+                        "Id": 19,
                         "Enable": true,
                         "Remark": "AOE"
                       },
@@ -597,9 +613,25 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 19,
+                        "Id": 20,
                         "Enable": true,
                         "Remark": "牵制"
+                      },
+                      {
+                        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeDelayNode, AEAssist",
+                        "DisplayName": "延迟[1.00]秒",
+                        "Delay": 1.0,
+                        "GUID": "127ac0c8-884b-42cc-97e4-b0c116a09e1b",
+                        "Important": false,
+                        "Color": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 0.4,
+                          "W": 1.0
+                        },
+                        "Id": 21,
+                        "Enable": true,
+                        "Remark": ""
                       },
                       {
                         "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
@@ -625,52 +657,9 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 20,
-                        "Enable": true,
-                        "Remark": "牵制转好了"
-                      },
-                      {
-                        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
-                        "CondLogicType": 0,
-                        "CheckOnce": false,
-                        "ReverseResult": false,
-                        "TriggerConds": [
-                          {
-                            "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondEnemyCastSpell, AEAssist",
-                            "Remark": "",
-                            "RegexNameOrId": "42787",
-                            "NeedTargetable": true,
-                            "DisplayName": "General/敌人读条使用技能"
-                          }
-                        ],
-                        "DisplayName": "等待条件",
-                        "GUID": "6acf59c5-5489-48e2-8a4f-7a6121e63f2e",
-                        "Important": false,
-                        "Color": {
-                          "X": 1.0,
-                          "Y": 1.0,
-                          "Z": 0.4,
-                          "W": 1.0
-                        },
-                        "Id": 21,
-                        "Enable": true,
-                        "Remark": "AOE"
-                      },
-                      {
-                        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeDelayNode, AEAssist",
-                        "DisplayName": "延迟[30.00]秒",
-                        "Delay": 30.0,
-                        "GUID": "ddd3592d-9ff7-4233-aeee-c13333c225a1",
-                        "Important": false,
-                        "Color": {
-                          "X": 1.0,
-                          "Y": 1.0,
-                          "Z": 0.4,
-                          "W": 1.0
-                        },
                         "Id": 22,
                         "Enable": true,
-                        "Remark": ""
+                        "Remark": "牵制转好了"
                       },
                       {
                         "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
@@ -700,6 +689,49 @@
                         "Remark": "AOE"
                       },
                       {
+                        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeDelayNode, AEAssist",
+                        "DisplayName": "延迟[30.00]秒",
+                        "Delay": 30.0,
+                        "GUID": "ddd3592d-9ff7-4233-aeee-c13333c225a1",
+                        "Important": false,
+                        "Color": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 0.4,
+                          "W": 1.0
+                        },
+                        "Id": 24,
+                        "Enable": true,
+                        "Remark": ""
+                      },
+                      {
+                        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                        "CondLogicType": 0,
+                        "CheckOnce": false,
+                        "ReverseResult": false,
+                        "TriggerConds": [
+                          {
+                            "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondEnemyCastSpell, AEAssist",
+                            "Remark": "",
+                            "RegexNameOrId": "42787",
+                            "NeedTargetable": true,
+                            "DisplayName": "General/敌人读条使用技能"
+                          }
+                        ],
+                        "DisplayName": "等待条件",
+                        "GUID": "6acf59c5-5489-48e2-8a4f-7a6121e63f2e",
+                        "Important": false,
+                        "Color": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 0.4,
+                          "W": 1.0
+                        },
+                        "Id": 25,
+                        "Enable": true,
+                        "Remark": "AOE"
+                      },
+                      {
                         "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
                         "TriggerActions": [
                           {
@@ -746,7 +778,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 24,
+                        "Id": 26,
                         "Enable": true,
                         "Remark": "牵制"
                       }
@@ -759,7 +791,7 @@
                       "Z": 0.4,
                       "W": 1.0
                     },
-                    "Id": 15,
+                    "Id": 16,
                     "Enable": true,
                     "Remark": ""
                   }
@@ -772,7 +804,7 @@
                   "Z": 0.4,
                   "W": 1.0
                 },
-                "Id": 14,
+                "Id": 15,
                 "Enable": true,
                 "Remark": "D2"
               }
@@ -815,7 +847,9 @@
     "Enable": true,
     "Remark": ""
   },
-  "ExposedVars": [],
+  "ExposedVars": [
+    "吃爆发药吗，吃就填1，不吃填0"
+  ],
   "ExposedVarDesc": "",
   "OpenerScript": "",
   "Note": "",

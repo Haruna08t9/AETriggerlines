@@ -5,10 +5,25 @@
     "DownloadUrl": "https://raw.githubusercontent.com/Haruna08t9/AETriggerlines/master/FRU-Ninja.json",
     "UpdateInfo": "更新内容详见DC"
   },
+
   {
     "Name": "M5S-UMP忍者 ",
     "Version": "1.0",
     "DownloadUrl": "https://raw.githubusercontent.com/Haruna08t9/AETriggerlines/master/M5S-Ninja.json",
+    "UpdateInfo": "更新内容详见DC"
+  },
+
+  {
+    "Name": "M7S-UMP忍者 ",
+    "Version": "1.0",
+    "DownloadUrl": "https://raw.githubusercontent.com/Haruna08t9/AETriggerlines/master/M7S-Ninja.json",
+    "UpdateInfo": "更新内容详见DC"
+  },
+
+  {
+    "Name": "M8S-UMP忍者 ",
+    "Version": "1.0",
+    "DownloadUrl": "https://raw.githubusercontent.com/Haruna08t9/AETriggerlines/master/M8S-Ninja.json",
     "UpdateInfo": "更新内容详见DC"
   }
 ]
