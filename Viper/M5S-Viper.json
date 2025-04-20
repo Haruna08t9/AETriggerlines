@@ -1,9 +1,9 @@
 {
   "GUID": "e6a346ec-5821-4ec6-aab9-003457fb6dea",
   "ConfigVersion": 6,
-  "TargetJob": 30,
+  "TargetJob": 41,
   "Author": "UMP",
-  "Name": "M5S-UMP忍者",
+  "Name": "M5S-UMP蝰蛇",
   "TreeRoot": {
     "DisplayName": "Start",
     "Childs": [
@@ -11,176 +11,64 @@
         "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
         "TriggerActions": [
           {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "雷遁",
+            "$type": "UMP.Viper.Triggers.TriggerAction_QT, UMP",
+            "Key": "飞蛇之尾",
             "Value": true,
-            "DisplayName": "Ninja/QT",
+            "DisplayName": "Viper/QT",
             "Remark": null
           },
           {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "雷遁止损",
+            "$type": "UMP.Viper.Triggers.TriggerAction_QT, UMP",
+            "Key": "蛇连击",
+            "Value": true,
+            "DisplayName": "Viper/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Viper.Triggers.TriggerAction_QT, UMP",
+            "Key": "附体",
+            "Value": true,
+            "DisplayName": "Viper/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Viper.Triggers.TriggerAction_QT, UMP",
+            "Key": "强行附体",
             "Value": false,
-            "DisplayName": "Ninja/QT",
+            "DisplayName": "Viper/QT",
             "Remark": null
           },
           {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "水遁",
+            "$type": "UMP.Viper.Triggers.TriggerAction_QT, UMP",
+            "Key": "蛇灵气",
             "Value": true,
-            "DisplayName": "Ninja/QT",
+            "DisplayName": "Viper/QT",
             "Remark": null
           },
           {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "幻影镰鼬",
-            "Value": true,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "夺取",
-            "Value": true,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "背刺",
-            "Value": true,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "强行背刺",
-            "Value": false,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "梦幻三段",
-            "Value": true,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "生杀",
-            "Value": true,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "天地人",
-            "Value": true,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "命水",
-            "Value": true,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "分身",
-            "Value": true,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "天理人道",
-            "Value": true,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "六道",
-            "Value": true,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "$type": "UMP.Viper.Triggers.TriggerAction_QT, UMP",
             "Key": "真北",
             "Value": true,
-            "DisplayName": "Ninja/QT",
+            "DisplayName": "Viper/QT",
             "Remark": null
           },
           {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "攒资源",
-            "Value": false,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "最终爆发",
-            "Value": false,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "最终爆发弱",
-            "Value": false,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "月影雷兽爪",
-            "Value": false,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "飞刀",
-            "Value": false,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "优先飞刀",
-            "Value": false,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "自动缩地",
-            "Value": false,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-            "Key": "早生杀",
-            "Value": false,
-            "DisplayName": "Ninja/QT",
-            "Remark": null
-          },
-          {
-            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "$type": "UMP.Viper.Triggers.TriggerAction_QT, UMP",
             "Key": "AOE",
             "Value": false,
-            "DisplayName": "Ninja/QT",
+            "DisplayName": "Viper/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Viper.Triggers.TriggerAction_QT, UMP",
+            "Key": "倾泻资源",
+            "Value": false,
+            "DisplayName": "Viper/QT",
             "Remark": null
           }
         ],
         "DisplayName": "行为",
-        "GUID": "96869815-eee4-412f-ab7c-0096267497bd",
+        "GUID": "21be825c-8e61-4fb0-8f79-c46e63f71123",
         "Important": false,
         "Color": {
           "X": 1.0,
@@ -214,7 +102,7 @@
             },
             "Id": 4,
             "Enable": true,
-            "Remark": "输出控...个毛啊，这本开个+3闭着眼打"
+            "Remark": "输出控...忍者都随便打，VPR更是闭眼打"
           },
           {
             "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeSelect, AEAssist",
@@ -847,9 +735,7 @@
     "Enable": true,
     "Remark": ""
   },
-  "ExposedVars": [
-    "吃爆发药吗，吃就填1，不吃填0"
-  ],
+  "ExposedVars": [],
   "ExposedVarDesc": "",
   "OpenerScript": "",
   "Note": "",
