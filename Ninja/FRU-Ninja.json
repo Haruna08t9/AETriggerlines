@@ -598,6 +598,22 @@
                         "Remark": "直线 Burnt Strike 读条时间:6.2"
                       },
                       {
+                        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeDelayNode, AEAssist",
+                        "DisplayName": "延迟[2.00]秒",
+                        "Delay": 2.0,
+                        "GUID": "c2f492c9-d30c-418c-9861-309c038ea03a",
+                        "Important": false,
+                        "Color": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 0.4,
+                          "W": 1.0
+                        },
+                        "Id": 18,
+                        "Enable": true,
+                        "Remark": ""
+                      },
+                      {
                         "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
                         "CondLogicType": 0,
                         "CheckOnce": false,
@@ -641,25 +657,9 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 18,
-                        "Enable": true,
-                        "Remark": "还没打掉镰鼬"
-                      },
-                      {
-                        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeDelayNode, AEAssist",
-                        "DisplayName": "延迟[2.00]秒",
-                        "Delay": 2.0,
-                        "GUID": "c2f492c9-d30c-418c-9861-309c038ea03a",
-                        "Important": false,
-                        "Color": {
-                          "X": 1.0,
-                          "Y": 1.0,
-                          "Z": 0.4,
-                          "W": 1.0
-                        },
                         "Id": 19,
                         "Enable": true,
-                        "Remark": ""
+                        "Remark": "还没打掉镰鼬"
                       },
                       {
                         "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
@@ -774,13 +774,6 @@
                             "Value": false,
                             "DisplayName": "Ninja/QT",
                             "Remark": null
-                          },
-                          {
-                            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
-                            "Key": "幻影镰鼬",
-                            "Value": true,
-                            "DisplayName": "Ninja/QT",
-                            "Remark": null
                           }
                         ],
                         "DisplayName": "行为",
@@ -794,7 +787,7 @@
                         },
                         "Id": 23,
                         "Enable": true,
-                        "Remark": "关雷遁开幻影镰鼬"
+                        "Remark": "关雷遁"
                       },
                       {
                         "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeDelayNode, AEAssist",
@@ -941,6 +934,13 @@
                           },
                           {
                             "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+                            "Key": "幻影镰鼬",
+                            "Value": true,
+                            "DisplayName": "Ninja/QT",
+                            "Remark": null
+                          },
+                          {
+                            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
                             "Key": "攒资源",
                             "Value": true,
                             "DisplayName": "Ninja/QT",
@@ -958,7 +958,7 @@
                         },
                         "Id": 29,
                         "Enable": true,
-                        "Remark": "开水遁\\攒资源"
+                        "Remark": "开水遁幻影镰鼬\\攒资源"
                       }
                     ],
                     "GUID": "c6aeac49-368c-4aaa-8d82-1edf7cef0b6d",
