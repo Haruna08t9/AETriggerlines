@@ -1,0 +1,1118 @@
+{
+  "GUID": "fa0a883b-5915-440e-8eb9-8d6bb99fc2ad",
+  "ConfigVersion": 6,
+  "TargetJob": 30,
+  "Author": "UMP",
+  "Name": "M6S-UMP忍者",
+  "TreeRoot": {
+    "DisplayName": "Start",
+    "Childs": [
+      {
+        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
+        "TriggerActions": [
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "雷遁",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "雷遁止损",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "水遁",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "幻影镰鼬",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "夺取",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "背刺",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "强行背刺",
+            "Value": false,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "梦幻三段",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "生杀",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "天地人",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "命水",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "分身",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "天理人道",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "六道",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "真北",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "攒资源",
+            "Value": false,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "最终爆发",
+            "Value": false,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "最终爆发弱",
+            "Value": false,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "月影雷兽爪",
+            "Value": false,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "飞刀",
+            "Value": false,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "优先飞刀",
+            "Value": false,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "自动缩地",
+            "Value": false,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "早生杀",
+            "Value": false,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          },
+          {
+            "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+            "Key": "AOE",
+            "Value": true,
+            "DisplayName": "Ninja/QT",
+            "Remark": null
+          }
+        ],
+        "DisplayName": "行为",
+        "GUID": "96869815-eee4-412f-ab7c-0096267497bd",
+        "Important": false,
+        "Color": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 0.4,
+          "W": 1.0
+        },
+        "Id": 2,
+        "Enable": true,
+        "Remark": "QT Reset"
+      },
+      {
+        "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeParallel, AEAssist",
+        "DisplayName": "并行",
+        "AnyReturn": false,
+        "StopWhenDead": false,
+        "Childs": [
+          {
+            "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeSequence, AEAssist",
+            "DisplayName": "序列",
+            "IgnoreNodeResult": false,
+            "StopWhenDead": false,
+            "Childs": [
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                "CondLogicType": 0,
+                "CheckOnce": false,
+                "ReverseResult": false,
+                "TriggerConds": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondEnemyCastSpell, AEAssist",
+                    "Remark": "",
+                    "RegexNameOrId": "42662",
+                    "NeedTargetable": true,
+                    "DisplayName": "General/敌人读条使用技能"
+                  }
+                ],
+                "DisplayName": "等待条件",
+                "GUID": "a4ed9acc-9393-4893-8732-e45669c5b2cb",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 5,
+                "Enable": true,
+                "Remark": "第一波"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
+                "TriggerActions": [
+                  {
+                    "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+                    "Key": "水遁",
+                    "Value": false,
+                    "DisplayName": "Ninja/QT",
+                    "Remark": null
+                  },
+                  {
+                    "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+                    "Key": "夺取",
+                    "Value": false,
+                    "DisplayName": "Ninja/QT",
+                    "Remark": null
+                  },
+                  {
+                    "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+                    "Key": "背刺",
+                    "Value": false,
+                    "DisplayName": "Ninja/QT",
+                    "Remark": null
+                  }
+                ],
+                "DisplayName": "行为",
+                "GUID": "8ec302a1-0ffe-4597-a949-58f5887d9415",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 6,
+                "Enable": true,
+                "Remark": "关爆发"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeDelayNode, AEAssist",
+                "DisplayName": "延迟[10.00]秒",
+                "Delay": 10.0,
+                "GUID": "867621f6-a517-4eb9-af3d-5470469ea190",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 7,
+                "Enable": true,
+                "Remark": ""
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                "CondLogicType": 0,
+                "CheckOnce": false,
+                "ReverseResult": false,
+                "TriggerConds": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondEnemyCastSpell, AEAssist",
+                    "Remark": "",
+                    "RegexNameOrId": "42663",
+                    "NeedTargetable": true,
+                    "DisplayName": "General/敌人读条使用技能"
+                  }
+                ],
+                "DisplayName": "等待条件",
+                "GUID": "a4ed9acc-9393-4893-8732-e45669c5b2cb",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 8,
+                "Enable": true,
+                "Remark": "第二波"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeDelayNode, AEAssist",
+                "DisplayName": "延迟[6.00]秒",
+                "Delay": 6.0,
+                "GUID": "7e501827-00cf-4548-97af-38236bdc2f6a",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 9,
+                "Enable": true,
+                "Remark": ""
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
+                "TriggerActions": [
+                  {
+                    "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+                    "Key": "水遁",
+                    "Value": true,
+                    "DisplayName": "Ninja/QT",
+                    "Remark": null
+                  }
+                ],
+                "DisplayName": "行为",
+                "GUID": "a6a0540d-6160-4876-a7e5-885b863107bd",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 10,
+                "Enable": true,
+                "Remark": "开水"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeDelayNode, AEAssist",
+                "DisplayName": "延迟[7.00]秒",
+                "Delay": 7.0,
+                "GUID": "67ceb567-f565-4f82-8307-d8799536f150",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 11,
+                "Enable": true,
+                "Remark": ""
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
+                "TriggerActions": [
+                  {
+                    "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+                    "Key": "夺取",
+                    "Value": true,
+                    "DisplayName": "Ninja/QT",
+                    "Remark": null
+                  },
+                  {
+                    "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+                    "Key": "背刺",
+                    "Value": true,
+                    "DisplayName": "Ninja/QT",
+                    "Remark": null
+                  }
+                ],
+                "DisplayName": "行为",
+                "GUID": "13ce8268-ada7-44a8-be75-4cd5caa76ed7",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 12,
+                "Enable": true,
+                "Remark": "开爆发"
+              }
+            ],
+            "GUID": "fe26ab64-311e-432d-9f07-df8c4fd2dac4",
+            "Important": false,
+            "Color": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 0.4,
+              "W": 1.0
+            },
+            "Id": 4,
+            "Enable": true,
+            "Remark": "输出1"
+          },
+          {
+            "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeSequence, AEAssist",
+            "DisplayName": "序列",
+            "IgnoreNodeResult": false,
+            "StopWhenDead": false,
+            "Childs": [
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                "CondLogicType": 0,
+                "CheckOnce": false,
+                "ReverseResult": false,
+                "TriggerConds": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondEnemyCastSpell, AEAssist",
+                    "Remark": "",
+                    "RegexNameOrId": "42648",
+                    "NeedTargetable": true,
+                    "DisplayName": "General/敌人读条使用技能"
+                  }
+                ],
+                "DisplayName": "等待条件",
+                "GUID": "a4ed9acc-9393-4893-8732-e45669c5b2cb",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 14,
+                "Enable": true,
+                "Remark": "画雷"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
+                "TriggerActions": [
+                  {
+                    "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+                    "Key": "水遁",
+                    "Value": false,
+                    "DisplayName": "Ninja/QT",
+                    "Remark": null
+                  },
+                  {
+                    "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+                    "Key": "夺取",
+                    "Value": false,
+                    "DisplayName": "Ninja/QT",
+                    "Remark": null
+                  },
+                  {
+                    "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+                    "Key": "背刺",
+                    "Value": false,
+                    "DisplayName": "Ninja/QT",
+                    "Remark": null
+                  }
+                ],
+                "DisplayName": "行为",
+                "GUID": "8ec302a1-0ffe-4597-a949-58f5887d9415",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 15,
+                "Enable": true,
+                "Remark": "关爆发"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeDelayNode, AEAssist",
+                "DisplayName": "延迟[50.00]秒",
+                "Delay": 50.0,
+                "GUID": "f3a2d37c-cf91-45a5-8fdf-db5c9e04e3d4",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 16,
+                "Enable": true,
+                "Remark": ""
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
+                "TriggerActions": [
+                  {
+                    "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+                    "Key": "水遁",
+                    "Value": true,
+                    "DisplayName": "Ninja/QT",
+                    "Remark": null
+                  }
+                ],
+                "DisplayName": "行为",
+                "GUID": "a6a0540d-6160-4876-a7e5-885b863107bd",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 17,
+                "Enable": true,
+                "Remark": "开水"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                "CondLogicType": 0,
+                "CheckOnce": false,
+                "ReverseResult": false,
+                "TriggerConds": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondEnemyCastSpell, AEAssist",
+                    "Remark": "",
+                    "RegexNameOrId": "42605",
+                    "NeedTargetable": true,
+                    "DisplayName": "General/敌人读条使用技能"
+                  }
+                ],
+                "DisplayName": "等待条件",
+                "GUID": "55aec05a-2090-4e76-88f3-263921be7561",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 18,
+                "Enable": true,
+                "Remark": "分摊"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
+                "TriggerActions": [
+                  {
+                    "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+                    "Key": "夺取",
+                    "Value": true,
+                    "DisplayName": "Ninja/QT",
+                    "Remark": null
+                  },
+                  {
+                    "$type": "UMP.Ninja.Triggers.TriggerAction_QT, UMP",
+                    "Key": "背刺",
+                    "Value": true,
+                    "DisplayName": "Ninja/QT",
+                    "Remark": null
+                  }
+                ],
+                "DisplayName": "行为",
+                "GUID": "13ce8268-ada7-44a8-be75-4cd5caa76ed7",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 19,
+                "Enable": true,
+                "Remark": "开爆发"
+              }
+            ],
+            "GUID": "8cc99cc2-85bf-4d7c-8ef8-f7f92e5c7305",
+            "Important": false,
+            "Color": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 0.4,
+              "W": 1.0
+            },
+            "Id": 13,
+            "Enable": true,
+            "Remark": "输出2"
+          },
+          {
+            "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeSequence, AEAssist",
+            "DisplayName": "序列",
+            "IgnoreNodeResult": false,
+            "StopWhenDead": false,
+            "Childs": [
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                "CondLogicType": 0,
+                "CheckOnce": false,
+                "ReverseResult": false,
+                "TriggerConds": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondEnemyCastSpell, AEAssist",
+                    "Remark": "",
+                    "RegexNameOrId": "42645",
+                    "NeedTargetable": true,
+                    "DisplayName": "General/敌人读条使用技能"
+                  }
+                ],
+                "DisplayName": "等待条件",
+                "GUID": "124c0098-0ea6-45e2-9a1b-41e36ae0eac3",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 21,
+                "Enable": true,
+                "Remark": "黄球"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeDelayNode, AEAssist",
+                "DisplayName": "延迟[1.00]秒",
+                "Delay": 1.0,
+                "GUID": "961b48e4-fb6f-4eb8-94b9-2fa41317946b",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 22,
+                "Enable": true,
+                "Remark": ""
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                "CondLogicType": 0,
+                "CheckOnce": false,
+                "ReverseResult": false,
+                "TriggerConds": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondCheckSpellCd, AEAssist",
+                    "SpellId": 7549,
+                    "CoolDown": 1,
+                    "Larger": false,
+                    "Remark": null,
+                    "DisplayName": "General/检测技能CD"
+                  }
+                ],
+                "DisplayName": "等待条件",
+                "GUID": "430afd92-41c2-4f16-b279-f504a43737c9",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 23,
+                "Enable": true,
+                "Remark": "牵制转好了"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
+                "TriggerActions": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerAction.TriggerActionHighPrioritySlot, AEAssist",
+                    "SpellConfig": {
+                      "Remark": "",
+                      "Category": 0,
+                      "SpellId": 7549,
+                      "CoolDowncheck": true,
+                      "CoolDowncheck_time": 0.5,
+                      "TargetType": 0,
+                      "IsPartyMember": true,
+                      "LimitJobType": 0,
+                      "LimitBuffIds": [],
+                      "LimitMaxHpType": 0,
+                      "LimitHpType": 0,
+                      "Location": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                      },
+                      "TargetSelector": {
+                        "Enable": false,
+                        "Target": 0,
+                        "FilterDatas": [],
+                        "NeedTargetable": false,
+                        "SndFilter": 0,
+                        "PMIndex": 0
+                      },
+                      "AutoCheckActionChange": true
+                    },
+                    "Clear": false,
+                    "DoubleClear": false,
+                    "DisplayName": "技能使用/插入高优先级技能",
+                    "Remark": null
+                  }
+                ],
+                "DisplayName": "行为",
+                "GUID": "6759d54c-b8e8-4191-96ab-54e3e24b0035",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 24,
+                "Enable": true,
+                "Remark": "牵制"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                "CondLogicType": 0,
+                "CheckOnce": false,
+                "ReverseResult": false,
+                "TriggerConds": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondEnemyCastSpell, AEAssist",
+                    "Remark": "",
+                    "RegexNameOrId": "42664",
+                    "NeedTargetable": true,
+                    "DisplayName": "General/敌人读条使用技能"
+                  }
+                ],
+                "DisplayName": "等待条件",
+                "GUID": "0aac757e-afee-4c0f-9dc7-7d39593e04af",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 25,
+                "Enable": true,
+                "Remark": "第三波"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                "CondLogicType": 0,
+                "CheckOnce": false,
+                "ReverseResult": false,
+                "TriggerConds": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondCheckSpellCd, AEAssist",
+                    "SpellId": 7549,
+                    "CoolDown": 1,
+                    "Larger": false,
+                    "Remark": null,
+                    "DisplayName": "General/检测技能CD"
+                  }
+                ],
+                "DisplayName": "等待条件",
+                "GUID": "430afd92-41c2-4f16-b279-f504a43737c9",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 26,
+                "Enable": true,
+                "Remark": "牵制转好了"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
+                "TriggerActions": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerAction.TriggerActionHighPrioritySlot, AEAssist",
+                    "SpellConfig": {
+                      "Remark": "",
+                      "Category": 0,
+                      "SpellId": 7549,
+                      "CoolDowncheck": true,
+                      "CoolDowncheck_time": 0.5,
+                      "TargetType": 0,
+                      "IsPartyMember": true,
+                      "LimitJobType": 0,
+                      "LimitBuffIds": [],
+                      "LimitMaxHpType": 0,
+                      "LimitHpType": 0,
+                      "Location": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                      },
+                      "TargetSelector": {
+                        "Enable": false,
+                        "Target": 0,
+                        "FilterDatas": [],
+                        "NeedTargetable": false,
+                        "SndFilter": 0,
+                        "PMIndex": 0
+                      },
+                      "AutoCheckActionChange": true
+                    },
+                    "Clear": false,
+                    "DoubleClear": false,
+                    "DisplayName": "技能使用/插入高优先级技能",
+                    "Remark": null
+                  }
+                ],
+                "DisplayName": "行为",
+                "GUID": "6759d54c-b8e8-4191-96ab-54e3e24b0035",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 27,
+                "Enable": true,
+                "Remark": "牵制"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                "CondLogicType": 0,
+                "CheckOnce": false,
+                "ReverseResult": false,
+                "TriggerConds": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondEnemyCastSpell, AEAssist",
+                    "Remark": "",
+                    "RegexNameOrId": "42666",
+                    "NeedTargetable": true,
+                    "DisplayName": "General/敌人读条使用技能"
+                  }
+                ],
+                "DisplayName": "等待条件",
+                "GUID": "0aac757e-afee-4c0f-9dc7-7d39593e04af",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 28,
+                "Enable": true,
+                "Remark": "二原石"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                "CondLogicType": 0,
+                "CheckOnce": false,
+                "ReverseResult": false,
+                "TriggerConds": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondCheckSpellCd, AEAssist",
+                    "SpellId": 7549,
+                    "CoolDown": 1,
+                    "Larger": false,
+                    "Remark": null,
+                    "DisplayName": "General/检测技能CD"
+                  }
+                ],
+                "DisplayName": "等待条件",
+                "GUID": "430afd92-41c2-4f16-b279-f504a43737c9",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 29,
+                "Enable": true,
+                "Remark": "牵制转好了"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
+                "TriggerActions": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerAction.TriggerActionHighPrioritySlot, AEAssist",
+                    "SpellConfig": {
+                      "Remark": "",
+                      "Category": 0,
+                      "SpellId": 7549,
+                      "CoolDowncheck": true,
+                      "CoolDowncheck_time": 0.5,
+                      "TargetType": 0,
+                      "IsPartyMember": true,
+                      "LimitJobType": 0,
+                      "LimitBuffIds": [],
+                      "LimitMaxHpType": 0,
+                      "LimitHpType": 0,
+                      "Location": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                      },
+                      "TargetSelector": {
+                        "Enable": false,
+                        "Target": 0,
+                        "FilterDatas": [],
+                        "NeedTargetable": false,
+                        "SndFilter": 0,
+                        "PMIndex": 0
+                      },
+                      "AutoCheckActionChange": true
+                    },
+                    "Clear": false,
+                    "DoubleClear": false,
+                    "DisplayName": "技能使用/插入高优先级技能",
+                    "Remark": null
+                  }
+                ],
+                "DisplayName": "行为",
+                "GUID": "6759d54c-b8e8-4191-96ab-54e3e24b0035",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 30,
+                "Enable": true,
+                "Remark": "牵制"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                "CondLogicType": 0,
+                "CheckOnce": false,
+                "ReverseResult": false,
+                "TriggerConds": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondEnemyCastSpell, AEAssist",
+                    "Remark": "",
+                    "RegexNameOrId": "42605",
+                    "NeedTargetable": true,
+                    "DisplayName": "General/敌人读条使用技能"
+                  }
+                ],
+                "DisplayName": "等待条件",
+                "GUID": "55aec05a-2090-4e76-88f3-263921be7561",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 31,
+                "Enable": true,
+                "Remark": "分摊"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                "CondLogicType": 0,
+                "CheckOnce": false,
+                "ReverseResult": false,
+                "TriggerConds": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondEnemyCastSpell, AEAssist",
+                    "Remark": "",
+                    "RegexNameOrId": "42645",
+                    "NeedTargetable": true,
+                    "DisplayName": "General/敌人读条使用技能"
+                  }
+                ],
+                "DisplayName": "等待条件",
+                "GUID": "124c0098-0ea6-45e2-9a1b-41e36ae0eac3",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 32,
+                "Enable": true,
+                "Remark": "黄球"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                "CondLogicType": 0,
+                "CheckOnce": false,
+                "ReverseResult": false,
+                "TriggerConds": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondCheckSpellCd, AEAssist",
+                    "SpellId": 7549,
+                    "CoolDown": 1,
+                    "Larger": false,
+                    "Remark": null,
+                    "DisplayName": "General/检测技能CD"
+                  }
+                ],
+                "DisplayName": "等待条件",
+                "GUID": "430afd92-41c2-4f16-b279-f504a43737c9",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 33,
+                "Enable": true,
+                "Remark": "牵制转好了"
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
+                "TriggerActions": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerAction.TriggerActionHighPrioritySlot, AEAssist",
+                    "SpellConfig": {
+                      "Remark": "",
+                      "Category": 0,
+                      "SpellId": 7549,
+                      "CoolDowncheck": true,
+                      "CoolDowncheck_time": 0.5,
+                      "TargetType": 0,
+                      "IsPartyMember": true,
+                      "LimitJobType": 0,
+                      "LimitBuffIds": [],
+                      "LimitMaxHpType": 0,
+                      "LimitHpType": 0,
+                      "Location": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                      },
+                      "TargetSelector": {
+                        "Enable": false,
+                        "Target": 0,
+                        "FilterDatas": [],
+                        "NeedTargetable": false,
+                        "SndFilter": 0,
+                        "PMIndex": 0
+                      },
+                      "AutoCheckActionChange": true
+                    },
+                    "Clear": false,
+                    "DoubleClear": false,
+                    "DisplayName": "技能使用/插入高优先级技能",
+                    "Remark": null
+                  }
+                ],
+                "DisplayName": "行为",
+                "GUID": "6759d54c-b8e8-4191-96ab-54e3e24b0035",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 34,
+                "Enable": true,
+                "Remark": "牵制"
+              }
+            ],
+            "GUID": "ed1d7b7f-8137-4394-953b-a60079fc4955",
+            "Important": false,
+            "Color": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 0.4,
+              "W": 1.0
+            },
+            "Id": 20,
+            "Enable": true,
+            "Remark": "减伤"
+          }
+        ],
+        "GUID": "54860166-72f5-4d06-98e8-dc086fd4ef36",
+        "Important": false,
+        "Color": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 0.4,
+          "W": 1.0
+        },
+        "Id": 3,
+        "Enable": true,
+        "Remark": ""
+      }
+    ],
+    "GUID": "a2293ca7-501e-4e90-99bf-aa316dfa2926",
+    "Important": false,
+    "Color": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 0.4,
+      "W": 1.0
+    },
+    "Id": 1,
+    "Enable": true,
+    "Remark": ""
+  },
+  "ExposedVars": [],
+  "ExposedVarDesc": "不放牵制是正常的！\n动物园之前放牵制会少LB",
+  "OpenerScript": "",
+  "Note": "",
+  "TerritoryTypeId": 1259,
+  "TerritoryWeatherId": 1,
+  "TargetAcrAuthor": "UMP",
+  "ClearCustomed": false,
+  "LogsAddress": ""
+}
