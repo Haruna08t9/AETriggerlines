@@ -213,6 +213,83 @@
                   {
                     "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondEnemyCastSpell, AEAssist",
                     "Remark": "",
+                    "RegexNameOrId": "43277",
+                    "NeedTargetable": false,
+                    "DisplayName": "General/敌人读条使用技能"
+                  }
+                ],
+                "DisplayName": "等待条件",
+                "GUID": "13a46d66-0f90-4f13-b67a-07fc87c8483b",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 5,
+                "Enable": true,
+                "Remark": ""
+              },
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeActionNode, AEAssist",
+                "TriggerActions": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerAction.TriggerActionSelectenemy, AEAssist",
+                    "NameorId": "",
+                    "TargetSelector": {
+                      "Enable": true,
+                      "Target": 4,
+                      "FilterDatas": [],
+                      "NeedTargetable": true,
+                      "SndFilter": 1,
+                      "PMIndex": 0
+                    },
+                    "Remark": "",
+                    "DisplayName": "General/切换目标"
+                  }
+                ],
+                "DisplayName": "行为",
+                "GUID": "ad61c39e-fa78-4644-9b66-22206a9ee533",
+                "Important": false,
+                "Color": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.4,
+                  "W": 1.0
+                },
+                "Id": 6,
+                "Enable": true,
+                "Remark": "选最近"
+              }
+            ],
+            "GUID": "ed4f53b8-5b7f-4d8e-ac24-370af9a7d095",
+            "Important": false,
+            "Color": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 0.4,
+              "W": 1.0
+            },
+            "Id": 4,
+            "Enable": true,
+            "Remark": "前半输出控制"
+          },
+          {
+            "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeSequence, AEAssist",
+            "DisplayName": "序列",
+            "IgnoreNodeResult": false,
+            "StopWhenDead": false,
+            "Childs": [
+              {
+                "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeCondNode, AEAssist",
+                "CondLogicType": 0,
+                "CheckOnce": false,
+                "ReverseResult": false,
+                "TriggerConds": [
+                  {
+                    "$type": "AEAssist.CombatRoutine.Trigger.TriggerCond.TriggerCondEnemyCastSpell, AEAssist",
+                    "Remark": "",
                     "RegexNameOrId": "42398",
                     "NeedTargetable": true,
                     "DisplayName": "General/敌人读条使用技能"
@@ -227,7 +304,7 @@
                   "Z": 0.4,
                   "W": 1.0
                 },
-                "Id": 5,
+                "Id": 8,
                 "Enable": true,
                 "Remark": "P2转P3读条"
               },
@@ -263,7 +340,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 8,
+                        "Id": 11,
                         "Enable": true,
                         "Remark": "泄雷"
                       },
@@ -289,7 +366,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 9,
+                        "Id": 12,
                         "Enable": true,
                         "Remark": "打了一个雷"
                       },
@@ -313,7 +390,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 10,
+                        "Id": 13,
                         "Enable": true,
                         "Remark": "不泄了"
                       }
@@ -326,7 +403,7 @@
                       "Z": 0.4,
                       "W": 1.0
                     },
-                    "Id": 7,
+                    "Id": 10,
                     "Enable": true,
                     "Remark": "输出控制1"
                   },
@@ -370,7 +447,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 12,
+                        "Id": 15,
                         "Enable": true,
                         "Remark": "锁爆发"
                       },
@@ -386,7 +463,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 13,
+                        "Id": 16,
                         "Enable": true,
                         "Remark": ""
                       },
@@ -491,7 +568,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 14,
+                        "Id": 17,
                         "Enable": true,
                         "Remark": "结天\\地\\人"
                       },
@@ -517,7 +594,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 15,
+                        "Id": 18,
                         "Enable": true,
                         "Remark": "打水"
                       },
@@ -568,7 +645,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 16,
+                        "Id": 19,
                         "Enable": true,
                         "Remark": "吃药"
                       },
@@ -612,7 +689,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 17,
+                        "Id": 20,
                         "Enable": true,
                         "Remark": "打1"
                       },
@@ -650,7 +727,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 18,
+                        "Id": 21,
                         "Enable": true,
                         "Remark": "开爆发"
                       }
@@ -663,7 +740,7 @@
                       "Z": 0.4,
                       "W": 1.0
                     },
-                    "Id": 11,
+                    "Id": 14,
                     "Enable": true,
                     "Remark": "输出控制2"
                   },
@@ -696,7 +773,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 20,
+                        "Id": 23,
                         "Enable": true,
                         "Remark": "连线"
                       },
@@ -734,7 +811,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 21,
+                        "Id": 24,
                         "Enable": true,
                         "Remark": "锁爆发"
                       },
@@ -761,7 +838,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 22,
+                        "Id": 25,
                         "Enable": true,
                         "Remark": "石化"
                       },
@@ -799,7 +876,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 23,
+                        "Id": 26,
                         "Enable": true,
                         "Remark": "开爆发"
                       }
@@ -812,7 +889,7 @@
                       "Z": 0.4,
                       "W": 1.0
                     },
-                    "Id": 19,
+                    "Id": 22,
                     "Enable": true,
                     "Remark": "输出控制3"
                   }
@@ -825,7 +902,7 @@
                   "Z": 0.4,
                   "W": 1.0
                 },
-                "Id": 6,
+                "Id": 9,
                 "Enable": true,
                 "Remark": ""
               }
@@ -838,9 +915,9 @@
               "Z": 0.4,
               "W": 1.0
             },
-            "Id": 4,
+            "Id": 7,
             "Enable": true,
-            "Remark": "输出控制"
+            "Remark": "后半输出控制"
           },
           {
             "$type": "AEAssist.CombatRoutine.Trigger.Node.TreeSelect, AEAssist",
@@ -874,7 +951,7 @@
                       "Z": 0.4,
                       "W": 1.0
                     },
-                    "Id": 26,
+                    "Id": 29,
                     "Enable": true,
                     "Remark": "检测职能"
                   },
@@ -907,7 +984,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 28,
+                        "Id": 31,
                         "Enable": true,
                         "Remark": "AOE 0219"
                       },
@@ -958,7 +1035,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 29,
+                        "Id": 32,
                         "Enable": true,
                         "Remark": "牵制"
                       },
@@ -974,7 +1051,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 30,
+                        "Id": 33,
                         "Enable": true,
                         "Remark": ""
                       },
@@ -1002,7 +1079,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 31,
+                        "Id": 34,
                         "Enable": true,
                         "Remark": "牵制转好了"
                       },
@@ -1029,7 +1106,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 32,
+                        "Id": 35,
                         "Enable": true,
                         "Remark": "AOE 0407"
                       },
@@ -1080,7 +1157,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 33,
+                        "Id": 36,
                         "Enable": true,
                         "Remark": "牵制"
                       },
@@ -1096,7 +1173,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 34,
+                        "Id": 37,
                         "Enable": true,
                         "Remark": ""
                       },
@@ -1124,7 +1201,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 35,
+                        "Id": 38,
                         "Enable": true,
                         "Remark": "牵制转好了"
                       },
@@ -1151,7 +1228,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 36,
+                        "Id": 39,
                         "Enable": true,
                         "Remark": "AOE 0616"
                       },
@@ -1202,7 +1279,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 37,
+                        "Id": 40,
                         "Enable": true,
                         "Remark": "牵制"
                       },
@@ -1218,7 +1295,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 38,
+                        "Id": 41,
                         "Enable": true,
                         "Remark": ""
                       },
@@ -1246,7 +1323,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 39,
+                        "Id": 42,
                         "Enable": true,
                         "Remark": "牵制转好了"
                       },
@@ -1273,7 +1350,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 40,
+                        "Id": 43,
                         "Enable": true,
                         "Remark": "AOE 0906"
                       },
@@ -1324,7 +1401,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 41,
+                        "Id": 44,
                         "Enable": true,
                         "Remark": "牵制"
                       }
@@ -1337,7 +1414,7 @@
                       "Z": 0.4,
                       "W": 1.0
                     },
-                    "Id": 27,
+                    "Id": 30,
                     "Enable": true,
                     "Remark": ""
                   }
@@ -1350,7 +1427,7 @@
                   "Z": 0.4,
                   "W": 1.0
                 },
-                "Id": 25,
+                "Id": 28,
                 "Enable": true,
                 "Remark": "D1"
               },
@@ -1389,7 +1466,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 44,
+                        "Id": 47,
                         "Enable": true,
                         "Remark": "AOE 0304"
                       },
@@ -1440,7 +1517,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 45,
+                        "Id": 48,
                         "Enable": true,
                         "Remark": "牵制"
                       },
@@ -1456,7 +1533,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 46,
+                        "Id": 49,
                         "Enable": true,
                         "Remark": ""
                       },
@@ -1484,7 +1561,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 47,
+                        "Id": 50,
                         "Enable": true,
                         "Remark": "牵制转好了"
                       },
@@ -1511,7 +1588,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 48,
+                        "Id": 51,
                         "Enable": true,
                         "Remark": "AOE 0530"
                       },
@@ -1562,7 +1639,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 49,
+                        "Id": 52,
                         "Enable": true,
                         "Remark": "牵制"
                       },
@@ -1578,7 +1655,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 50,
+                        "Id": 53,
                         "Enable": true,
                         "Remark": ""
                       },
@@ -1606,7 +1683,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 51,
+                        "Id": 54,
                         "Enable": true,
                         "Remark": "牵制转好了"
                       },
@@ -1633,7 +1710,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 52,
+                        "Id": 55,
                         "Enable": true,
                         "Remark": "AOE 0717"
                       },
@@ -1684,7 +1761,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 53,
+                        "Id": 56,
                         "Enable": true,
                         "Remark": "牵制"
                       },
@@ -1700,7 +1777,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 54,
+                        "Id": 57,
                         "Enable": true,
                         "Remark": ""
                       },
@@ -1728,7 +1805,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 55,
+                        "Id": 58,
                         "Enable": true,
                         "Remark": "牵制转好了"
                       },
@@ -1755,7 +1832,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 56,
+                        "Id": 59,
                         "Enable": true,
                         "Remark": "AOE 0906"
                       },
@@ -1771,7 +1848,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 57,
+                        "Id": 60,
                         "Enable": true,
                         "Remark": ""
                       },
@@ -1798,7 +1875,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 58,
+                        "Id": 61,
                         "Enable": true,
                         "Remark": "AOE 1034"
                       },
@@ -1849,7 +1926,7 @@
                           "Z": 0.4,
                           "W": 1.0
                         },
-                        "Id": 59,
+                        "Id": 62,
                         "Enable": true,
                         "Remark": "牵制"
                       }
@@ -1862,7 +1939,7 @@
                       "Z": 0.4,
                       "W": 1.0
                     },
-                    "Id": 43,
+                    "Id": 46,
                     "Enable": true,
                     "Remark": ""
                   }
@@ -1875,7 +1952,7 @@
                   "Z": 0.4,
                   "W": 1.0
                 },
-                "Id": 42,
+                "Id": 45,
                 "Enable": true,
                 "Remark": "D2"
               }
@@ -1888,7 +1965,7 @@
               "Z": 0.4,
               "W": 1.0
             },
-            "Id": 24,
+            "Id": 27,
             "Enable": true,
             "Remark": "减伤"
           }
